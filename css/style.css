@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: monospace;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 22, 255, 1) 0%,
+    rgba(255, 2, 2, 1) 28%,
+    rgba(245, 255, 0, 1) 78%
+  );
+  background-attachment: fixed;
+}
+
+.menu {
+  background: rgb(224, 0, 0);
+  border-color: rgb(224, 0, 0);
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+
+.menu__group {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bolder;
+  border: solid 10px;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+}
+
+.menu__link:hover {
+  color: rgb(204, 205, 200);
+}
+
+.mainsection {
+  color: #fde8e9;
+  background-color: darkgray;
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  color: rgb(224, 0, 0);
+  font-size: x-large;
+}
+
+.header__picture {
+  width: 30%;
+}
+
+.header__title {
+}
+
+.titlesection {
+  border: 10px solid;
+  border-radius: 10px;
+  background-color: rgb(204, 205, 200);
+  border-color: black;
+  margin-bottom: 10px;
+}
+
+.titlesection__header {
+  background-color: rgb(224, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+}
+
+.titlesection-article {
+  color: #333333;
+  font-size: large;
+  padding: 0px 10px;
+}
+
+.titlesection-article__header {
+  font-size: 20px;
+}
+
+.titlesection-article__paragraph {
+  color: black;
+}
+
+.section-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subsection {
+  border: 10px solid;
+  border-radius: 10px;
+  background-color: rgb(204, 205, 200);
+  border-color: black;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 325px;
+}
+
+.subsection__header {
+  background-color: rgb(224, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+}
+
+.subsection-article {
+  color: #333333;
+  font-size: large;
+  padding: 0px 10px;
+}
+
+.subsection-article__header {
+  font-size: 20px;
+}
+
+.subsection-article__paragraph {
+  color: black;
+}
+
+.subsection__link {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+
+.subsection__link:hover {
+  color: rgb(204, 205, 200);
+}
+
+.footer {
+  color: #333333;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 10px;
+}
+
+.header__image {
+  width: 10%;
+  float: right;
+  margin-right: 5px;
+}
+
+.subsection__image {
+  width: 20%;
+  float: right;
+  margin-right: 5px;
+}

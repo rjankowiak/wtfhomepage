@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafał Jankowiak - GIT</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header class="menu">
+      <nav class="menu__group">
+        <a class="menu__link" href="../index.html">Strona główna</a>
+        <a class="menu__link" href="WTF.html">WTF</a>
+        <a class="menu__link" href="DBMaster.html">DBMaster</a>
+        <a class="menu__link" href="GIT.html">GIT</a>
+      </nav>
+    </header>
+
+    <main class="mainsection">
+      <header class="header">
+        <h1 class="header__title">
+          WTF
+        </h1>
+        <img
+          class="header__image"
+          src="https://edu.devstyle.pl/wp-content/uploads/2019/03/wtf-wpidea.png"
+          alt="WTF"
+        />
+      </header>
+
+      <section class="titlesection">
+        <h2 class="titlesection__header">Visual Studio Code</h2>
+        <article class="titlesection-article">
+          <h3 class="titlesection-article__header">Tipsy && tricki</h3>
+          <p class="titlesection-article__paragraph">
+            <ul>
+              <li>(Przy instalacji zaznaczyc Open with Code to context menu 2 cbx, register Code as an editor for supperted file types, add to PATH)</li>
+              <li>w pilku ! + tab - tworzy podstawowy format pliku rozpoznajac po rozszerzeniu</li>
+              <li>ctrl + shift + p - okienko do wpisywania poleceń (podpowiada polecenia i skróty)</li>
+              <li>alt + shift + f - autoformatowanie dokumentu lub w okienku poleceń wpisać format document -> autoformatiwawnie</li>
+              <li>view -> toggle word wrap - zawijanie wierszy
+              <li>Rozszerzenie Prettier do formatowania dokumentu. Ctrl + shif + p -> komenda format document. Po instalacji może zgłosić kilka formatterów i wybieramy prettiera</li>
+              <li>Rozszerzenie Live server do automatycznego odpalania strony. Prawy dolny róg przycisk Go Live i strona w przeglądarce będzie odświeżać się autoamtycznie.</li>
+          </ul>
+          </p>
+        </article>
+      </section>
+
+      <section class="titlesection">
+        <h2 class="titlesection__header">Html</h2>
+        <article class="titlesection-article">
+          <h3 class="titlesection-article__header">Warstwa 1 Frontendu</h3>
+          <p class="titlesection-article__paragraph">
+            <ul>
+              <li>Nazwy plików html bez spacji - zamiast tego myślnik</li>
+              <li>&lt;!DOCTYPE html&gt; zaszłość, kiedys oznaczało się wersje htmla</li>
+              <li>&lt;html lang="pl"&gt; przy np. stronie ze wspomaganiem dla niedowidzących włączaja się odpowiednie funkcje w określonym języku</li>
+              <li>&lt;main&gt;&lt;/main&gt; główna część dokumentu</li>
+              <li>&lt;section&gt;&lt;/section&gt; podział na sekcje (zbiór artykułów)</li>
+              <li>&lt;article&gt;&lt;article&gt; podział na artykuły</li>
+              <li>&lt;header&gt;&lt;/header&gt; oraz &lt;footer&gt;&lt;/footer&gt; - nagłówek i stopka, poza całym dokumentem mogą także być zawarte w &lt;section&gt; i &lt;article&gt;</li>
+              <li>&lt;h1-h6&gt; nagłówki tytułowe, h1 - zgodnie ze sztuką tylko jeden na stronie powinnien się znajdować</li>
+              <li>&lt;p&gt; paragrag/akapit</li>
+              <li>&lt;br/&gt; enter (większy odstęp - stylami)</li>
+              <li>&lt;i&gt; &lt;em&gt; pochylenie</li>
+              <li>&lt;b&gt; &lt;strong&gt; pogrubienie</li>
+              <li>&lt;b&gt; oraz &lt;i&gt; nie mają znaczenia semantycznego - służą do wyróżnienia tekstu</li>
+              <li>&lt;strong&gt; i &lt;em&gt; mają znaczenie semantyczne, strong - nadanie ważności tekstu, em - oznaczenie ironii np.</li>
+              <li><a href="https://developer.mozilla.org/pl/docs/Web/HTML/Global_attributes">atrybuty html</a></li>
+              <li>&lt;a href="" target=""&gt;&lt;link</a>&gt; link do innej strony, pliku lub sekcji na stronie (sekcji nadać id="", a w &lt;a href odwołać się przez #id_sekcji&gt;</li>
+              <li>&lt;img src="" alt=""/&gt; umieszczenie obrazka, src - adres obrazka, alt - tekst alternatywny jeśli obrazek się nie wyświetli</li>
+              <li>&lt;nav&gt; semantyczne menu</li>
+
+          </ul>
+          </p>
+        </article>
+      </section>
+
+      <section class="titlesection">
+        <h2 class="titlesection__header">Html</h2>
+        <article class="titlesection-article">
+          <h3 class="titlesection-article__header">Warstwa 1 Frontendu</h3>
+          <p class="titlesection-article__paragraph">
+            <ul>
+              <li>
+                linkowanie do zasobów<br/>
+                <ol>
+                  <li>/folder/plik.jpg - doklei się do głownego adresu</li>
+                  <li>folder/plik.jpg - doklei się do końca adresu</li>
+                </ol>
+            </li>
+            <li>
+              kody http:<br/>
+              <ol>
+                <li>1XX - hold on</li>
+                <li>2XX - ??</li>
+                <li>3XX - redirect</li>
+                <li>404 - nie znaleziono</li>
+                <li>5XX - internal server error</li>
+              </ol>
+          </li>
+          <li>
+            linkowanie do zasobów<br/>
+            <ol>
+              <li>Walidator html: Nu Html Checker https://validator.w3.org/nu/</li>
+              <li>dokumentacja html w wersji 5.2 https://www.w3.org/TR/html52/</li>
+            </ol>
+        </li>
+        
+        <li>
+          DIV<br/>
+        <li>nie ma znaczenia semantycznego</li>
+        <li>naduzywany</li>
+        <li>używać tylko kiedy nie istnieje odpowiedni semantyczny znacznik lub chcemy coś "opkakować" czyli używany do stylowania</li>
+      </li>
+          </ul>
+          </p>
+        </article>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      Strona domowa Rafała Jankowiaka, treść jest typowo szkoleniowa, nie ma co
+      marudzić :)
+    </footer>
+  </body>
+</html>
