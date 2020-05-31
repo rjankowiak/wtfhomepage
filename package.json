@@ -6,8 +6,11 @@
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
   "scripts": {
+    "start": "npx node-sass -w css/scss/style.scss css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
