@@ -7,7 +7,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "npx node-sass -w css/scss/style.scss css/style.css",
